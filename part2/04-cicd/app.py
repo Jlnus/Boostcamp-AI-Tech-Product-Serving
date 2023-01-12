@@ -18,9 +18,7 @@ root_password = 'password'
 
 
 def main():
-
-    st.title("Mask Classification Model - Deploy Test ver.2")
-
+    st.title("Mask Classification Model - Deploy Test ver.3")
 
     with open("config.yaml") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
